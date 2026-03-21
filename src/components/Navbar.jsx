@@ -43,7 +43,7 @@ export default function Navbar() {
             {link}
           </a>
         ))}
-        <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+        <a href="https://kalthami-hq.vercel.app/login" style={{ textDecoration: 'none' }}>
           <button className="btn-primary" style={{ padding: '10px 20px', fontSize: 13 }}>
             Log In
           </button>
@@ -72,7 +72,7 @@ export default function Navbar() {
               {link}
             </a>
           ))}
-          <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+          <a href="https://kalthami-hq.vercel.app/login" style={{ textDecoration: 'none' }}>
             <button className="btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
               Log In
             </button>

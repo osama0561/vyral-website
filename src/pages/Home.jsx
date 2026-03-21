@@ -820,7 +820,7 @@ export default function Home() {
             <p style={{ fontFamily: 'Inter', fontSize: 16, color: '#64748B', marginBottom: 40, lineHeight: 1.7 }}>
               Join thousands of creators who stopped guessing and started growing. Free to start. No credit card needed.
             </p>
-            <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+            <a href="https://kalthami-hq.vercel.app/login" style={{ textDecoration: 'none' }}>
               <button className="btn-primary" style={{ fontSize: 16, padding: '16px 36px' }}>
                 Log In — It's Free <ArrowRight size={18} />
               </button>
