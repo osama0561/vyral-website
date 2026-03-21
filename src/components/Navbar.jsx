@@ -43,9 +43,11 @@ export default function Navbar() {
             {link}
           </a>
         ))}
-        <button className="btn-primary" style={{ padding: '10px 20px', fontSize: 13 }}>
-          Get Early Access
-        </button>
+        <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+          <button className="btn-primary" style={{ padding: '10px 20px', fontSize: 13 }}>
+            Log In
+          </button>
+        </a>
       </div>
 
       {/* Mobile hamburger */}
@@ -70,9 +72,11 @@ export default function Navbar() {
               {link}
             </a>
           ))}
-          <button className="btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-            Get Early Access
-          </button>
+          <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+            <button className="btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+              Log In
+            </button>
+          </a>
         </div>
       )}
 

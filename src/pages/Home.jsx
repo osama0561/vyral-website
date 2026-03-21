@@ -602,7 +602,7 @@ export default function Home() {
       </section>
 
       {/* ── C. FEATURES SECTION ── */}
-      <section style={{ background: '#080810', padding: '100px 40px' }}>
+      <section id="analytics" style={{ background: '#080810', padding: '100px 40px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <RevealOnScroll>
             <div style={{ textAlign: 'center', marginBottom: 80 }}>
@@ -758,7 +758,7 @@ export default function Home() {
       </section>
 
       {/* ── G. TESTIMONIALS ── */}
-      <section style={{ background: '#080810', padding: '100px 40px' }}>
+      <section id="about" style={{ background: '#080810', padding: '100px 40px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <RevealOnScroll>
             <div style={{ textAlign: 'center', marginBottom: 70 }}>
@@ -820,9 +820,11 @@ export default function Home() {
             <p style={{ fontFamily: 'Inter', fontSize: 16, color: '#64748B', marginBottom: 40, lineHeight: 1.7 }}>
               Join thousands of creators who stopped guessing and started growing. Free to start. No credit card needed.
             </p>
-            <button className="btn-primary" style={{ fontSize: 16, padding: '16px 36px' }}>
-              Get Early Access — It's Free <ArrowRight size={18} />
-            </button>
+            <a href="https://vyral.vercel.app/login" style={{ textDecoration: 'none' }}>
+              <button className="btn-primary" style={{ fontSize: 16, padding: '16px 36px' }}>
+                Log In — It's Free <ArrowRight size={18} />
+              </button>
+            </a>
             <p style={{ fontFamily: '"Space Mono"', fontSize: 11, color: '#3A3A4A', marginTop: 20 }}>
               14-day free trial · Cancel anytime · No credit card required
             </p>
