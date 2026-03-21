@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #080810; color: #F4F4FF; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+
+.glow-purple { box-shadow: 0 0 30px rgba(123, 47, 255, 0.4); }
+.glow-cyan { box-shadow: 0 0 10px rgba(0, 229, 255, 0.6); }
+.btn-primary {
+  background: #7B2FFF;
+  color: #F4F4FF;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(123, 47, 255, 0.4);
+  transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-primary:hover { transform: scale(1.03); box-shadow: 0 0 50px rgba(123, 47, 255, 0.6); }
+.btn-ghost {
+  background: transparent;
+  color: #F4F4FF;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid #3A3A4A;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 0.2s;
+}
+.btn-ghost:hover { transform: scale(1.03); border-color: #7B2FFF; }
