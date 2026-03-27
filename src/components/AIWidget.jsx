@@ -3,7 +3,7 @@ import { Sparkles, X, Send } from 'lucide-react'
 
 const RESPONSES = {
   'what is vyral': 'Vyral is your creator command center. Connect YouTube, TikTok, Instagram, and X — see all your data in one place, know what works, and never run out of ideas. → <a href="/features" style="color:#7B2FFF">See all features</a>',
-  'pricing': 'Starter at $19/mo (2 platforms), Pro at $49/mo (all 4 platforms + AI features), Team at $99/mo. All plans include a 14-day free trial. → <a href="/pricing" style="color:#7B2FFF">See pricing</a>',
+  'pricing': 'Starter at $19/mo (1 account/platform, 50 AI credits/mo), Pro at $49/mo (3 accounts/platform, 300 AI credits + competitor analysis), Agency at $99/mo (10 accounts/platform, unlimited credits). All plans include a 14-day free trial. → <a href="/pricing" style="color:#7B2FFF">See pricing</a>',
   'platforms': 'Vyral supports YouTube, TikTok, Instagram, and X — all four in one dashboard.',
   'voice': 'Paste 5+ samples of your content. Vyral\'s AI extracts your writing style, vocabulary patterns, tone, and even your Arabic/English ratio. Every AI output from that point sounds like you wrote it.',
   'launch': 'We\'re in early access. <a href="/join" style="color:#7B2FFF">Join the waitlist</a> and be first when we launch.',

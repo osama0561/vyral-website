@@ -24,11 +24,7 @@ export default function Navbar() {
     }}>
       {/* Logo */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-        <div style={{
-          width: 8, height: 8, borderRadius: '50%', background: '#00E5FF',
-          boxShadow: '0 0 10px rgba(0,229,255,0.6)',
-          animation: 'pulse 2s infinite',
-        }} />
+        <img src="/icon.png" alt="Vyral" style={{ width: 32, height: 32, borderRadius: 6, objectFit: 'cover' }} />
         <span style={{ fontFamily: '"Space Grotesk"', fontWeight: 700, fontSize: 20, color: '#F4F4FF', letterSpacing: '-0.03em' }}>
           Vyral
         </span>

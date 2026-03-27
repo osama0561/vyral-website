@@ -440,18 +440,36 @@ export default function Home() {
   const pricingTiers = [
     {
       name: 'Starter', price: '$19', period: '/mo', featured: false,
-      desc: 'Perfect for creators just getting serious.',
-      features: ['2 platforms connected', 'Unified analytics dashboard', '50 AI content ideas/mo', 'Basic voice training', 'Email support'],
+      desc: 'For creators managing one account per platform.',
+      features: [
+        '1 account per platform (YouTube, TikTok, Instagram, X)',
+        'Unified analytics dashboard',
+        '50 AI idea credits / month',
+        'Basic analytics (views, followers, engagement)',
+        'Email support',
+      ],
     },
     {
       name: 'Pro', price: '$49', period: '/mo', featured: true,
-      desc: 'Everything you need to go full-time.',
-      features: ['All 4 platforms connected', 'Advanced analytics + trends', 'Unlimited AI ideas', 'Full voice fingerprint', 'Format fanout (all formats)', 'Production pipeline', 'Priority support'],
+      desc: 'For creators running multiple channels or brands.',
+      features: [
+        '3 accounts per platform (e.g. 3 YouTubes, 3 TikToks)',
+        'Advanced analytics + trends',
+        '300 AI idea credits / month',
+        'Competitor analysis (up to 5 competitors)',
+        'Priority support',
+      ],
     },
     {
-      name: 'Team', price: '$99', period: '/mo', featured: false,
-      desc: 'For agencies and creator studios.',
-      features: ['Everything in Pro', 'Up to 5 team members', '3 brand voice profiles', 'White-label reports', 'API access', 'Dedicated account manager'],
+      name: 'Agency', price: '$99', period: '/mo', featured: false,
+      desc: 'For agencies managing large creator rosters.',
+      features: [
+        '10 accounts per platform',
+        'Full analytics with exports',
+        'Unlimited AI idea credits',
+        'Unlimited competitor analysis',
+        'Dedicated account manager',
+      ],
     },
   ]
 
